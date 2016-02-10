@@ -1,1 +1,60 @@
-Hello World
+<!DOCTYPE html>
+<html  lang="zh">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=500px, user-scalable=no">
+	
+
+	<title>I am To Kin Hang</title>
+	
+	<style>
+		body{background:#eee;color:#333;
+			font-family:"Helvetica Neue",sans-serif;overflow:hidden;}
+		.copy{float:right;padding-bottom:10em;font-size:12px;color:#666;text-shadow:1px 1px #FFF;}
+		
+		#box{
+		margin:7em auto;
+		border-radius:15px;
+		width:500px;height:300px;
+		background:#fff url("https://lh3.googleusercontent.com/-srwjbRbanm0/Tt43GT3cQJI/AAAAAAAAAoE/GyoC9Xa-yPI/s300/mii_424.png") no-repeat;
+		background-position: 250px 0;
+		-webkit-animation: bounceIn .8s ease both;
+		box-shadow: 0 0 10px #888;
+			}
+		a{color:#333;text-decoration:none;}
+		#box blockquote{padding:5px;}
+		h1{
+		border-bottom:1px solid #000;
+		width:220px; 
+		-webkit-animation: fadeInLeft 1s both;	-webkit-animation-delay: 1.2s;
+		}
+		#s{-webkit-animation: fadeInLeft 1s both;-webkit-animation-delay: 1.5s;}
+		#t{-webkit-transform: translateY(10px) rotate(-4deg);}
+		#r{-webkit-transform: translateY(10px) rotate(15deg);}
+		
+		@-webkit-keyframes bounceIn {
+			0% {opacity: 0;	-webkit-transform: translateY(-5000px);}
+			60%{opacity: 1;-webkit-transform: translateY(50px) rotate(10deg);}
+			70%{opacity: 1;-webkit-transform: translateY(-50px) ;}
+			80%{opacity: 1;-webkit-transform: translateY(30px)rotate(-10deg);}
+			90%{-webkit-transform: translateY(-30px);}
+			100% {-webkit-transform: translateY(0);}
+					}
+		@-webkit-keyframes fadeInLeft {
+			0% {opacity: 0;	-webkit-transform: translateX(-10px);}
+			100% {opacity: 1;-webkit-transform: translateX(0);}
+					}
+
+	</style>
+</head>
+
+<body onload="setTimeout(scrollTo, 0,0, 100)">
+	<div id="box">
+	<blockquote><h1>To Kin Hang</h1>
+	<div id="s">Computer Science<br> New Asia College<br>CUHK<br><br><a href="mailto:to.kin.hang@cuhk.edu.hk">to.kin.hang@cuhk.edu.hk</a></div>
+	<br><img src="logo_cu.png" id="t"> <img src="logo_na.png" id="r">
+	</blockquote>
+	</div>
+	<div class="copy">&copy; 2012-2013 </div>
+			
+	</body></html>
